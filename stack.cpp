@@ -1,9 +1,11 @@
 #include "stack.h"
+// the functions for the stack class for the stack/queue inheritence lab
+// Author: Frankie Gauthier
+// CS2010 Lab 6
+#include "stack.h"
 
 
-bool stack::empty(){
-	return this->p.size();
-}
-bool stack::full(){return false;}
-void stack::store(int val){this->p.push_back(val);}
-int stack::retrieve(){return this->p.pop_back();}
+bool stack::full(){return top == size;};
+bool stack::empty(){return top == 0;};
+void stack::store(int val){ p[top++] = val;}
+int stack::retrieve(){ return p[--top]; }
