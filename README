@@ -1,0 +1,18 @@
+This program implements a stack and a queue as derived classes of the list class and demonstrates inheritence
+
+Author: Frankie Gauthier
+
+Class: CS2010 Lab 6
+
+Compile
+--------
+
+- to compile this proram type "make" in the CS2010Lab6 directory
+
+- to run this program type ./list and observe the output
+
+
+Repository
+-----------
+
+- https://github.com/frgauthi/CS2010Lab6.git
