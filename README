@@ -1,4 +1,6 @@
 This program implements a stack and a queue as derived classes of the list class and demonstrates inheritence
+The stack and queue have a default size of 10 for brevity
+The program creates a stack and queue, fills them with 0-9 and tests the emptyness and fullness before and after
 
 Author: Frankie Gauthier
 

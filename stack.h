@@ -12,7 +12,7 @@ class stack : public list {
 		int top;
 		int size;
 	public:
-		explicit stack(int n =100 ) : list(n) , top(0), size(n) {} ;
+		explicit stack(int n = defaultSize ) : list(n) , top(0), size(n) {} ;
 
 		bool empty();
 		bool full();
